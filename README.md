@@ -1,4 +1,5 @@
 # University of Rochester Biomedical Data Science Hackathon Summer 2023
+Welcome to the landing page for the hackathon. All important information will appear here when the competition starts. In the meantime, please register and watch for further instructions. All teams scoring better than random will receive a participation prize. 1st and 2nd place winning teams in each division will get a cash prize (see below).
 
 # Logistics
 
@@ -27,3 +28,16 @@ division, else they will be in the open division.
     encountered in scoring your predictions.
 5.  Interim scoring may employ forms of randomization (e.g. bootstrapping) from the test data set.  The final scores will use all the data and not be randomized.
 4.  Competition runs through 11:59 PM EDT 19-August-2023.  The predictions each team has committed to their repository at that time will be used to determine their final score.
+
+# Overview
+The objective of the hackathon is to correctly predict whether the remaining UMIs represent single 
+(singlet) or multiple (doublet) cells. Predictions will be scored using Matthews correlation coefficient 
+(MCC).
+
+# Data
+We will make a description of the data available when the hackathon starts
+
+   # Prizes
+1.  First place in each division: $300 + $75*(team size)
+2.  Second place in each division: 0 + $50*(team size)
+  
