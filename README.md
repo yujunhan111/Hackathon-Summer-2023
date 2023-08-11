@@ -21,7 +21,7 @@ division, else they will be in the open division.
     than this.
 2.  General questions/problems can be directed to [issues](https://github.com/Rochester-Biomedical-DS/Hackathon-Summer-2023/issues) page.  We encourage other hackathon participants to respond to issues.
 3.  The scoreboard will be located
-    [here](docs/Leaderboard.pdf).
+    [here](docs/Leaderboard.md).
     <!--[here](https://rochester-biomedical-ds.github.io/Hackathon-Summer-2023/Leaderboard.html)-->
     We  cannot provide support
     beyond the diagnostic output included on the scoreboard if an error is
@@ -30,9 +30,9 @@ division, else they will be in the open division.
 4.  Competition runs through 11:59 PM EDT 19-August-2023.  The predictions each team has committed to their repository at that time will be used to determine their final score.
 
 # Overview
-The objective of the hackathon is to correctly predict whether the remaining UMIs represent single 
-(singlet) or multiple (doublet) cells. Predictions will be scored using Matthews correlation coefficient 
-(MCC).
+Single cell RNA sequencing (scRNA-seq) is a recently developed technology platform used to measure gene expression from thousands of individual cells. scRNA-seq is transforming biology and medicine as it enables studies of cell-heterogeneity, identification of cell types and subpopulations in complex tissues and measuring cell transformations during development. However, scRNA-seq also has a number of analysis challenges commonly encountered in data science. One of the main challenges is that the read count matrix (genes x cells) is sparse in that it contains many zeros due to technological limitations (e.g. only a thousands genes have count data from an individual cell even though many more genes are expressed in that cell). For an overview of how scRNA-seq data is obtained and best practices for scRNA-seq analysis see Huemos et al. (2023, [PMC10066026](https://www.nature.com/articles/s41576-023-00586-w)).
+
+The goal of this hackathon is to identify doublets in scRNA-seq data. Doublets or multiplets are cases where gene expression count data is generated from two or more cells rather than a single cell. This occurs when a unique molecular identifier (UMI) is associated with two cells in a liquid droplet rather than one, resulting in a mixture of expression from both cells. There are a variety of ways in which doublets can be detected, most often by cells that appear to show a mixture of expression patterns from two different cell types. Doublets involving the same cell type are much more difficult to detect. One's ability to detect doublets depends on how one deals with sparse data, normalization and cell type clustering. For a review of methods see Xi and Li (2021, [PMC7897250](https://doi.org/10.1016/j.cels.2020.11.008)). Accurate detection of doublets remains a significant challenge and no single method outperforms all others.
 
 # Data
 We will make a description of the data available when the hackathon starts
