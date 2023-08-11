@@ -3,7 +3,7 @@ Welcome to the landing page for the hackathon. All important information will ap
 
 # Logistics
 
-<!-- 0.   Registration is open until 5PM Monday 8/14.  Teams can consist of up to 4 people. Register by using the google form. -->
+- Registration is open until 5PM Monday 8/14.  Teams can consist of up to 4 people. Register by using the [google form](https://docs.google.com/forms/d/e/1FAIpQLSdQbzq6q0RfRz4E9-r0cDUTW9a7YsMDyCOyuEtqcZaLpq0Omg/viewform). 
 0.   Each team must have a github handle associated with it in order to participate.  Make sure you edit your registration or email the organizers to provide this, if you haven't yet.
 1.   You may add team members up
 to noon EDT on 8/17 by editing your response to the google form or emailing the organizers.
