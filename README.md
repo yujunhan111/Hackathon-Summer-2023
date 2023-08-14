@@ -15,8 +15,8 @@ division, else they will be in the open division.
     be queried for a file named [prediction/prediction.csv](prediction/prediction.csv).  **If the team captain forks this
     repository and writes predictions there everything should work
     (as long as the predictions are formatted correctly).**
-2.  Predictions will be scored at least once daily, starting 8/17, with
-    scores posted by noon.  At
+2.  Predictions will be scored at least once daily, starting 8/16, with
+    scores posted by 3 PM.  At
     the organizers' option, predictions may be scored more frequently
     than this.
 2.  General questions/problems can be directed to [issues](https://github.com/Rochester-Biomedical-DS/Hackathon-Summer-2023/issues) page.  We encourage other hackathon participants to respond to issues.
@@ -27,7 +27,7 @@ division, else they will be in the open division.
     beyond the diagnostic output included on the scoreboard if an error is
     encountered in scoring your predictions.
 5.  Interim scoring may employ forms of randomization (e.g. bootstrapping) from the test data set.  The final scores will use all the data and not be randomized.
-4.  Competition runs through 11:59 PM EDT 19-August-2023.  The predictions each team has committed to their repository at that time will be used to determine their final score.
+4.  Competition runs through 2:59 PM EDT 19-August-2023.  The predictions each team has committed to their repository at that time will be used to determine their final score.
 
 # Overview
 Single cell RNA sequencing (scRNA-seq) is a recently developed technology platform used to measure gene expression from thousands of individual cells. scRNA-seq is transforming biology and medicine as it enables studies of cell-heterogeneity, identification of cell types and subpopulations in complex tissues and measuring cell transformations during development. However, scRNA-seq also has a number of analysis challenges commonly encountered in data science. One of the main challenges is that the read count matrix (genes x cells) is sparse in that it contains many zeros due to technological limitations (e.g. only a thousands genes have count data from an individual cell even though many more genes are expressed in that cell). For an overview of how scRNA-seq data is obtained and best practices for scRNA-seq analysis see Huemos et al. (2023, [PMC10066026](https://www.nature.com/articles/s41576-023-00586-w)).
