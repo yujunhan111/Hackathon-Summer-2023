@@ -3,7 +3,7 @@ Welcome to the landing page for the hackathon. All important information will ap
 
 # Logistics
 
-- Registration is open until 5PM Monday 8/14.  Teams can consist of up to 4 people. Register by using the [google form](https://docs.google.com/forms/d/e/1FAIpQLSdQbzq6q0RfRz4E9-r0cDUTW9a7YsMDyCOyuEtqcZaLpq0Omg/viewform). 
+- Registration is now closed.  Teams can consist of up to 4 people. Complete registration details on this [google form](https://docs.google.com/forms/d/e/1FAIpQLSdQbzq6q0RfRz4E9-r0cDUTW9a7YsMDyCOyuEtqcZaLpq0Omg/viewform). 
 0.   Each team must have a github handle associated with it in order to participate.  Make sure you edit your registration or email the organizers to provide this, if you haven't yet.
 1.   You may add team members up
 to noon EDT on 8/17 by editing your response to the google form or emailing the organizers.
@@ -21,8 +21,8 @@ division, else they will be in the open division.
     than this.
 2.  General questions/problems can be directed to [issues](https://github.com/Rochester-Biomedical-DS/Hackathon-Summer-2023/issues) page.  We encourage other hackathon participants to respond to issues.
 3.  The scoreboard will be located
-    [here](docs/Leaderboard.md).
-    <!--[here](https://rochester-biomedical-ds.github.io/Hackathon-Summer-2023/Leaderboard.html)-->
+    [here](Leaderboard.Hackathon.2023.md).
+   
     We  cannot provide support
     beyond the diagnostic output included on the scoreboard if an error is
     encountered in scoring your predictions.
@@ -35,9 +35,10 @@ Single cell RNA sequencing (scRNA-seq) is a recently developed technology platfo
 The goal of this hackathon is to identify doublets in scRNA-seq data. Doublets or multiplets are cases where gene expression count data is generated from two or more cells rather than a single cell. This occurs when a unique molecular identifier (UMI) is associated with two cells in a liquid droplet rather than one, resulting in a mixture of expression from both cells. There are a variety of ways in which doublets can be detected, most often by cells that appear to show a mixture of expression patterns from two different cell types. Doublets involving the same cell type are much more difficult to detect. One's ability to detect doublets depends on how one deals with sparse data, normalization and cell type clustering. For a review of methods see Xi and Li (2021, [PMC7897250](https://doi.org/10.1016/j.cels.2020.11.008)). Accurate detection of doublets remains a significant challenge and no single method outperforms all others.
 
 # Data
-We will make a description of the data available when the hackathon starts
+See [data description](Data.Description.md) for details.
 
    # Prizes
-1.  First place in each division: $300 + $75*(team size)
-2.  Second place in each division: 0 + $50*(team size)
+   
+1.  First place in each division: $300 + $75 x (team size)
+2.  Second place in each division: 0 + $50 x (team size)
   
